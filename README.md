@@ -1,5 +1,7 @@
 ## Ionic Components
 
+![Ionic 4 ─ Components ─ Preview](https://raw.githubusercontent.com/anayarojo/ionic-components/master/wiki/img/Ionic%204%20%E2%94%80%20Components%20%E2%94%80%20Preview.PNG)
+
 ### Commands
 
 ```bash
