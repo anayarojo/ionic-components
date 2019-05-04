@@ -1,6 +1,6 @@
-# Ionic Components
+## Ionic Components
 
-## Commands
+### Commands
 
 ```bash
 ionic g page pages/home --dry-run
