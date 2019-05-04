@@ -2,7 +2,7 @@
 
 ## Commands
 
-```
+```bash
 ionic g page pages/home --dry-run
 ionic g page pages/home --spec=false
 ionic g page pages/alert --spec=false
