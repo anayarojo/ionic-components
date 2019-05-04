@@ -1,0 +1,30 @@
+<ion-header no-border>
+  <ion-toolbar>
+
+    <ion-buttons slot="start">
+      <ion-back-button text="Regresar" defaultHref="/"></ion-back-button>
+    </ion-buttons>
+
+    <ion-title>List ─ Reorder</ion-title>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-list>
+    <ion-reorder-group disabled="false" (ionItemReorder)="reoder($event)">
+
+        <ion-item *ngFor="let character of characters; let i = index;">
+          <ion-label>{{ character }}</ion-label>
+          <ion-reorder slot="end"></ion-reorder>
+        </ion-item>
+
+    </ion-reorder-group>
+  </ion-list>
+
+  <ion-button padding expand="full" (click)="onClick()">
+    Save
+  </ion-button>
+
+</ion-content>

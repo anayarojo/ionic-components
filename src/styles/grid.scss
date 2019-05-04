@@ -1,0 +1,31 @@
+$screen-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+) !default;
+
+@each $keySize, $valueSize in $screen-breakpoints {
+    [hidden-#{$keySize}] {
+        @media (min-width: $valueSize) {
+            display: none;
+        }
+    }
+}
+
+@each $keySize, $valueSize in $screen-breakpoints {
+    [visible-block-#{$keySize}] {
+        @media (min-width: $valueSize) {
+            display: block;
+        }
+    }
+}
+
+@each $keySize, $valueSize in $screen-breakpoints {
+    [visible-inline-block-#{$keySize}] {
+        @media (min-width: $valueSize) {
+            display: inline-block;
+        }
+    }
+}
