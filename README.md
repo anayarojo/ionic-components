@@ -2,6 +2,8 @@
 
 ![Ionic 4 ─ Components ─ Preview](https://raw.githubusercontent.com/anayarojo/ionic-components/master/wiki/img/Ionic%204%20%E2%94%80%20Components%20%E2%94%80%20Preview.PNG)
 
+![Ionic 4 ─ Components ─ Preview 2](https://raw.githubusercontent.com/anayarojo/ionic-components/master/wiki/img/Ionic%204%20%E2%94%80%20Components%20%E2%94%80%20Preview%202.PNG)
+
 ### Commands
 
 ```bash
